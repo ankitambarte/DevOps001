@@ -1,0 +1,2 @@
+what is the difference between process and service?
+A process is any running instance of a program, while a service is a special type of long-running process that is managed by the system (via systemd), starts automatically, and can restart on failure.
