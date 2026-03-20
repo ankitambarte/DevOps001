@@ -1,0 +1,135 @@
+1️⃣ Introduction / Background
+Walk me through your professional journey.
+Tell me about yourself.
+What are your day-to-day responsibilities in your current/previous project?
+What percentage of your work is coding/scripting vs manual work?
+What kind of workload do you run on AWS? (EC2, ECS, EKS, Lambda etc.)
+What technologies have you worked on?
+Why did you move from development to DevOps?
+2️⃣ AWS Questions
+Rate yourself on AWS from 1–5.
+How would you design an AWS architecture for a frontend and backend application?
+If an application runs in private subnet, how will you install packages from internet?
+What is the difference between Elastic IP and Public IP?
+What is the difference between EBS, EFS and S3?
+Can EBS be attached to multiple instances?
+What happens to EBS if the EC2 instance is terminated?
+What happens to EFS if EC2 is terminated?
+How do you connect EC2 with RDS securely?
+How do you manage SSL certificates?
+Where else can you generate SSL certificates apart from ACM?
+What is WAF and where would you place it?
+What AWS services are used in CI/CD pipelines?
+What is ECS vs EKS?
+How do you debug a failing Lambda function?
+How do you build a serverless application?
+How do you connect on-premise with AWS?
+What is hub-and-spoke architecture in AWS?
+Can two spokes communicate with each other?
+How do you route traffic between VPCs?
+3️⃣ Kubernetes Questions
+Rate yourself on Kubernetes.
+Core components of Kubernetes.
+What is a Kubernetes deployment?
+Difference between Deployment and StatefulSet.
+Difference between StatefulSet and DaemonSet.
+What happens to PVC if a StatefulSet pod is deleted?
+How do you expose an API outside Kubernetes?
+Can you expose a database using Ingress?
+How do pods communicate with each other?
+How do you secure pod communication?
+How do you add TLS certificates in Kubernetes?
+How do you create certificates?
+What causes CrashLoopBackOff?
+How do you debug CrashLoopBackOff?
+What is OOMKilled?
+What happens when memory limit exceeds node capacity?
+Difference between CPU throttling vs memory OOM.
+How do you delete a namespace stuck in terminating state?
+How do you remove Kubernetes finalizers?
+Command to exec into a container in a pod.
+Command when pod has multiple containers.
+What is Horizontal Autoscaling?
+What is Vertical Autoscaling?
+How do you optimize EKS node utilization?
+Routing in Kubernetes (DNS, Ingress).
+Host-based routing vs Path-based routing.
+4️⃣ Terraform Questions
+Where do you store Terraform state file?
+Terraform lifecycle stages.
+What are lifecycle policies?
+What is a Terraform module?
+Why use Terraform instead of CloudFormation?
+What is Terraform taint and untaint?
+What is Terraform target?
+What happens if a resource is created manually in AWS but not in Terraform?
+How do you import a manually created resource?
+What will happen if Terraform apply runs when resource exists manually?
+What if Terraform state file is corrupted?
+5️⃣ CI/CD Questions
+Explain your CI/CD pipeline.
+What tools have you used (Jenkins, GitLab, CodePipeline)?
+What components exist in AWS CI/CD?
+How does code promotion work between environments?
+What is your Git branching strategy?
+Difference between blue-green deployment and canary deployment.
+How do you rollback a deployment?
+6️⃣ Monitoring / Observability
+Difference between CloudWatch and CloudTrail.
+What is Grafana?
+What data sources can Grafana use?
+What monitoring tools have you used?
+How does Prometheus collect metrics?
+How do you manage alerts for CPU or memory spikes?
+Have you worked with ELK stack?
+What is log retention policy?
+What issues have you faced with Filebeat?
+Which format logs should be in for Elasticsearch?
+7️⃣ Linux / DevOps Fundamentals
+Unix command to check memory usage.
+Difference between clone and pull in Git.
+Steps to fix wrong commit in Git.
+How do you transfer a file to remote server safely?
+How do you verify file integrity?
+What problems have you faced in production?
+8️⃣ Python / Coding Questions
+Write Python script to parse logs.
+Extract JSON from log lines.
+Separate logs by application name.
+Output message field with timestamp.
+Explain import json.
+Explain import os.
+What does open(file, 'r') do?
+What does for line in f mean?
+Alternative way to read file line by line.
+Write health-check script for service.
+9️⃣ Architecture / Scenario Questions
+User says application is slow. What do you check?
+Horizontal vs vertical scaling decision.
+Multi-region highly available architecture design.
+How do you introduce Spot instances in production?
+Cost optimization in microservices architecture.
+Prevent developers from leaving infrastructure running.
+🔟 Database Questions
+Difference between MongoDB and RDS.
+Difference between relational DB and document DB.
+Have you migrated databases?
+What is Change Data Capture?
+1️⃣1️⃣ Security / Secrets
+What happens if private key is exposed?
+How do you manage secrets in automation?
+How do you rotate credentials?
+1️⃣2️⃣ Behavioral / Managerial
+Have you experienced favoritism?
+What is failure to you?
+What are you afraid of?
+What difference makes success vs failure?
+Why did you leave your previous company?
+Why did you leave without an offer?
+Why are you still interviewing after receiving offers?
+When can you join?
+How fast can you learn new technology?
+Would you travel back in time to change anything?
+Anything about the last 40 minutes of conversation?
+Which AI tools do you use?
+Free or licensed AI tools?
